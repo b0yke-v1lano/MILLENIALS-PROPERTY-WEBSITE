@@ -155,8 +155,15 @@ a{
     }
 
     nav ul{
+        display: flex;
         justify-content: center;
-        padding: 0;
+        padding-right: 30px;
+    }
+
+    nav li{
+        padding: 5px;
+        margin-left: 0;
+        font-size: 16px;
     }
 
     #firstHead{
@@ -196,6 +203,10 @@ a{
         justify-content: center;
     }
 
+    .text-container{
+        margin-top: 80px;
+    }
+
     .img-page2{
         display: flex;
         flex-direction: column;
@@ -206,10 +217,15 @@ a{
         padding: 10px;
     }
 
-    .about-header,
+    .about-header{
+        font-size: 25px;
+        margin-left: 0;
+        text-align: center;
+    }
+
     .about-text,
     .about-text1{
-        font-size: 25px;
+        font-size: 15px;
         margin-left: 0;
         text-align: center;
     }
